@@ -4,66 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Домашнее задание #2</title>
+    <title>Домашнее задание #2 Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href=""> WebStudio</a>
-            <ul>
-                <li><a href="">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+    <header class="header">
+        <nav class="header-nav">
+            <a class="header-logo link" href=""> <span class="logo-accent">Web</span>Studio</a>
+            <ul class="list header-list">
+                <li class="header-item"><a class="header-link link" href="index.html">Студия</a></li>
+                <li class="header-item"><a class="header-link link current" href="">Портфолио</a></li>
+                <li class="header-item"><a class="header-link link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+            <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
-        <!--Кнопки фильтр -->
-        <section>
-            <h2 hidden>Фильтр</h2>
-        <ul>
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+        
+        <section class="filter">
+            <h2 hidden class="hidden-title">Фильтр</h2>
+            <!--Кнопки фильтр -->
+        <ul class="list filter-list">
+            <li class="filter-item"><button type="button" class="filter-button current-button">Все</button></li>
+            <li class="filter-item"><button type="button" class="filter-button">Веб-сайты</button></li>
+            <li class="filter-item"><button type="button" class="filter-button">Приложения</button></li>
+            <li class="filter-item"><button type="button" class="filter-button">Маркетинг</button></li>
+            <li class="filter-item"><button type="button" class="filter-button">Дизайн</button></li>
         </ul>
-        </section>
-
-        <!--Проекты  -->
-        <section>
-            <h2 hidden>Проекты</h2>
-            <ul>
-                <li><img src="./images/web1.jpg"  width="370" height="294" alt="Ноутбук">
-                <h3>Технокряк</h3>
-                <p>Веб-сайт</p></li>
-                <li><img src="./images/design1.jpg" width="370" height="294" alt="Постер с баскетболистами">
-                <h3>Постер New Orlean vs Golden Star</h3>
-                <p>Дизайн</p></li>
-                <li><img src="./images/app1.jpg" width="370" height="294" alt="Логотип приложения">
-                <h3>Ресторан Seafood</h3>
-                <p>Приложение</p></li>
-                <li><img src="./images/marketing1.jpg" width="370" height="294" alt="Наушники">
-                <h3>Проект Prime</h3>
-                <p>-Маркетинг</p></li>
-                <li><img src="./images/app2.jpg" width="370" height="294" alt="Две коробки">
-                <h3>Проект Boxes</h3>
-                <p>Приложение</p></li>
-                <li><img src="./images/web2.jpg" width="370" height="294" alt="Интерфейс сайта">
-                <h3>Inspiration has no Borders</h3>
-                <p>Веб-сайт</p></li>
-                <li><img src="./images/design2.jpg" width="370" height="294" alt="Развернутый журнал">
-                <h3>Издание Limited Edition</h3>
-                <p>Дизайн</p></li>
-                <li><img src="./images/marketing2.jpg" width="370" height="294" alt="Бирка">
-                <h3>Проект LAB</h3>
-                <p>-Маркетинг</p></li>
-                <li><img src="./images/app3.jpg" width="370" height="294" alt="Ноутбук и две руки">
-                <h3>Growing Business</h3>
+    <!-------Projects list------->
+            <ul class="list project-list">
+                <li class="project-item"><img src="./images/web1.jpg"  width="370" height="294" alt="Ноутбук">
+                <h3 class="project-title">Технокряк</h3>
+                <p class="project-text">Веб-сайт</p></li>
+                <li class="project-item"><img src="./images/design1.jpg" width="370" height="294" alt="Постер с баскетболистами">
+                <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
+                <p class="project-text">Дизайн</p></li>
+                <li class="project-item"><img src="./images/app1.jpg" width="370" height="294" alt="Логотип приложения">
+                <h3 class="project-title">Ресторан Seafood</h3>
+                <p class="project-text">Приложение</p></li>
+                <li class="project-item"><img src="./images/marketing1.jpg" width="370" height="294" alt="Наушники">
+                <h3 class="project-title">Проект Prime</h3>
+                <p class="project-text">-Маркетинг</p></li>
+                <li class="project-item"><img src="./images/app2.jpg" width="370" height="294" alt="Две коробки">
+                <h3 class="project-title">Проект Boxes</h3>
+                <p class="project-text">Приложение</p></li>
+                <li class="project-item"><img src="./images/web2.jpg" width="370" height="294" alt="Интерфейс сайта">
+                <h3 class="project-title">Inspiration has no Borders</h3>
+                <p class="project-text">Веб-сайт</p></li>
+                <li class="project-item"><img src="./images/design2.jpg" width="370" height="294" alt="Развернутый журнал">
+                <h3 class="project-title">Издание Limited Edition</h3>
+                <p class="project-text">Дизайн</p></li>
+                <li class="project-item"><img src="./images/marketing2.jpg" width="370" height="294" alt="Бирка">
+                <h3 class="project-title">Проект LAB</h3>
+                <p class="project-text">Маркетинг</p></li>
+                <li class="project-item"><img src="./images/app3.jpg" width="370" height="294" alt="Ноутбук и две руки">
+                <h3 class="project-title">Growing Business</h3>
                 <p>Приложение</p></li>
             </ul>
         </section>
@@ -71,19 +73,20 @@
     </main>
 
 
-    <footer>
-        <a href=""> WebStudio</a>
-    
-        <address>
-            <ul>
-                <li> <a href="https://goo.gl/maps/QVq1bsx61QLoESw57" target="_blank" rel="noreferrer noopener">г. Киев, пр-т
-                        Леси Украинки, 26 </a></li>
-    
-                <li><a href="mailto:info@example.com">info@example.com</a> </li>
-                <li><a href="tel:+380991111111">+38 099 111 11 11</a> </li>
-            </ul>
-        </address>
-    
-    </footer>
+<footer class="footer">
+    <a class="link footer-logo" href=""> <span class="logo-accent"> Web</span>Studio</a>
+
+    <address>
+        <ul class="list footer-list">
+            <li class="footer-item"> <a class="link footer-address" href="https://goo.gl/maps/QVq1bsx61QLoESw57"
+                    target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26 </a></li>
+
+            <li class="footer-item"><a class="link footer-mail" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="footer-item"><a class="link footer-tel" href="tel:+380991111111">+38 099 111 11 11</a> </li>
+        </ul>
+    </address>
+
+</footer>
 </body>
 </html>
