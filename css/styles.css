@@ -174,10 +174,7 @@ body {
 }
 
 /*------------------- FILTER---------------- */
-.current-button {
-  background-color: var(--accent-color);
-  color: #ffffff;
-}
+
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--accent-color);
@@ -193,6 +190,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+}
+.current-button {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 /*------------------- PROJECTS---------------- */
 
